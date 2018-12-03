@@ -10,6 +10,6 @@ search_field.send_keys("Test automation")
 search_button = driver.find_element_by_xpath("//*[@id='search-form']/fieldset/button")
 search_button.click()
 
-assert "Test automation" in driver.title
+assert "Test utomation" in driver.title
 
 driver.quit()
